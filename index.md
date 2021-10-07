@@ -1,7 +1,7 @@
 Test link
 [Software Design](https://groberge.github.io/SoftwareDesign.html)
 
-[Data Structures and Algorithms](https://groberge.github.io/DataStructure.html)
+[Data Structures and Algorithms](https://groberge.github.io/DataStructures.html)
 
 [Databases](https://groberge.github.io/Databases.html)
 
