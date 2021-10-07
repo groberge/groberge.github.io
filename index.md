@@ -1,6 +1,8 @@
 Test link
 [Software Design](https://groberge.github.io/SoftwareDesign.html)
+
 [Data Structures and Algorithms](https://groberge.github.io/DataStructure.html)
+
 [Databases](https://groberge.github.io/Databases.html)
 
 ## Welcome to GitHub Pages
