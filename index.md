@@ -3,7 +3,7 @@ Test link
 
 [Data Structures and Algorithms](https://github.com/groberge/groberge.github.io/blob/a7462b9eaf161af83d888adf3411816473fd0f60/DataStructures.md)
 
-[Databases](https://groberge.github.io/Databases.html)
+[Databases](https://github.com/groberge/groberge.github.io/blob/3e31dd8d30b7ab8faace83a5aee0a6f41ed7f421/Databases.md)
 
 ## Welcome to GitHub Pages
 
