@@ -1,5 +1,5 @@
 Test link
-[Software Design](https://groberge.github.io/SoftwareDesign)
+[Software Design](https://groberge.github.io/SoftwareDesign.html)
 
 ## Welcome to GitHub Pages
 
