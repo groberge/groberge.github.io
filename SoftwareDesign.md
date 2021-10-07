@@ -1,5 +1,5 @@
 ## This page is referencing the Software Design and Engineering enhancement.
 
-*Original artifact*
+**Original artifact**
 
-*Enhanced artifact*
+**Enhanced artifact**
