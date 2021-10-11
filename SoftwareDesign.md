@@ -1,4 +1,4 @@
-## Software Design and Engineering enhancement.
+## Software Design and Engineering
 
 **Original artifact**
 
@@ -9,7 +9,7 @@
 [Farkle in Python](https://github.com/groberge/groberge.github.io/blob/main/Farkle.py)
 
 	
-The artifact that was chosen for this milestone is a version of a game called Farkle that was originally written in C++ for the IT-312 course that was taken in 2017.  Along with some standard libraries, the program includes user-defined classes called Player and Gameplay as well as a struct datatype called Dice.  Within the Player class, there are attributes to hold the player’s name, score and whether they are the winning player along with the appropriate getter and setter functions.  The Gameplay class creates the struct for the dice, which holds attributes such as the value, number, scoring value and many Booleans such as whether the dice is a scoring dice or has been saved, matched or calculated.  This class also creates many methods for the functionality of the game.  
+The artifact that was chosen for this enhancement is a game called Farkle that was originally written for the IT-312 course that was taken in 2017.  Through this enhancement, the program will be translated from the current C++ version to a new Python version of the game. The original program includes a couple user-defined classes called Player and Gameplay as well as a struct datatype called Dice and some of the standard C++ libraries.  Within the Player class, there are attributes to hold the player’s name, score and whether they are the winning player along with the appropriate getter and setter functions.  The Gameplay class creates the struct for the dice, which holds attributes such as the value, number, scoring value and many Booleans such as whether the dice is a scoring dice or has been saved, matched or calculated.  This class also creates many methods for the functionality of the game which will be referenced throughout this page.  
   
 The main application instantiates the Gameplay class, an alias called PlayerVector representing a vector of the players and initializes the combination of the srand and time functions to ensure random values are achieved during the rolling of the dice.  It then displays the rules using a function from the Gameplay class that displays a file to the screen and runs another Gameplay function called numberPlayers which prompts the user for the number of players who will be playing.  
 
