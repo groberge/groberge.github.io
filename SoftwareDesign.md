@@ -1,4 +1,4 @@
-## This page is referencing the Software Design and Engineering enhancement.
+## Software Design and Engineering enhancement.
 
 **Original artifact**
 
