@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>D:\OneDrive\Documents\School\2021-08-Capstone\Roberge_Farkle\Roberge_Farkle\</FILEPATH>
+      <FILENAME>Gameplay.cpp</FILENAME>
+      <LINE>12</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Gameplay::numberDice' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Gameplay::{ctor}</FUNCTION>
+    <DECORATED>??0Gameplay@@QAE@XZ</DECORATED>
+    <FUNCLINE>12</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Gameplay::numberDice</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\OneDrive\Documents\School\2021-08-Capstone\Roberge_Farkle\Roberge_Farkle\</FILEPATH>
+      <FILENAME>Gameplay.h</FILENAME>
+      <LINE>17</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Gameplay::Dice::value' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Gameplay::Dice::{ctor}</FUNCTION>
+    <DECORATED>??0Dice@Gameplay@@QAE@XZ</DECORATED>
+    <FUNCLINE>17</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Gameplay::Dice::value</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>
