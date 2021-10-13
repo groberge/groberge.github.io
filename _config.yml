@@ -3,9 +3,9 @@ title: Greg Roberge's ePortfolio
 
 <nav>
   <ul>
-    <li><a href="#">Home</a></li>
-    <li><a href="#">Code Review</a></li>
-    <li><a href="#">Software Design</a></li>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="CodeReview.html">Code Review</a></li>
+    <li><a href="SoftwareDesign.html">Software Design</a></li>
   </ul>
 </nav>
 
