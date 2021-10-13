@@ -1,6 +1,9 @@
 theme: jekyll-theme-hacker
 title: Greg Roberge's ePortfolio
 
+
+# --- List of links in the navigation bar --- #
+
 navbar-links:
   Home: "index"
   Code Review: "CodeReview"
