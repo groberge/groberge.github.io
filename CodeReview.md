@@ -1,5 +1,3 @@
-title: Test file
-
 ## Code Review
 
 This code review is being done for a game called Farkle which was originally written in C++ for the Software Development with C++ .Net course at Southern New Hampshire University.  This program will be used as the base for multiple enhancements in the Capstone for the BS in Computer Science degreee program.  
