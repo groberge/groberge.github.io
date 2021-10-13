@@ -1,6 +1,13 @@
 theme: jekyll-theme-hacker
 title: Greg Roberge's ePortfolio
 
+<nav>
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Code Review</a></li>
+    <li><a href="#">Software Design</a></li>
+  </ul>
+</nav>
 
 # --- List of links in the navigation bar --- #
 
