@@ -1,1 +1,9 @@
 theme: jekyll-theme-hacker
+title: Greg Roberge's ePortfolio
+
+navbar-links:
+  Home: "index"
+  Code Review: "CodeReview"
+  Software Design: "SoftwareDesign"
+  Data Structures and Algorithms: "DataStructures"
+  Databases: "Databases"
