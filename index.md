@@ -1,11 +1,11 @@
 
-[Code Review](https://groberge.github.io/CodeReview.html)
+[Code Review](https://groberge.github.io/CodeReview.html){:target="_blank"}
 
-[Software Design](https://groberge.github.io/SoftwareDesign.html)
+[Software Design](https://groberge.github.io/SoftwareDesign.html){:target="_blank"}
 
-[Data Structures and Algorithms](https://groberge.github.io/DataStructures.html)
+[Data Structures and Algorithms](https://groberge.github.io/DataStructures.html){:target="_blank"}
 
-[Databases](https://groberge.github.io/Databases.html)
+[Databases](https://groberge.github.io/Databases.html){:target="_blank"}
 
 ## Welcome to GitHub Pages
 
