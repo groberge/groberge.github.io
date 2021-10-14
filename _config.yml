@@ -1,6 +1,9 @@
 theme: jekyll-theme-hacker
 title: Greg Roberge's ePortfolio test
 
+title: Code Review
+url: "https://groberge.github.io/CodeReview.html"
+
 # --- List of links in the navigation bar --- #
 
 navbar-links:
