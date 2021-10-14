@@ -2,11 +2,11 @@
 
 **Original artifact**
 
-[Original C++ Farkle](https://github.com/groberge/groberge.github.io/tree/main/Original_Farkle)
+[Original C++ Farkle](https://github.com/groberge/groberge.github.io/tree/main/Original_Farkle){:target="_blank"}
 
 **Enhanced artifact**
 
-[Farkle in Python](https://github.com/groberge/groberge.github.io/blob/main/Farkle.py)
+[Farkle in Python](https://github.com/groberge/groberge.github.io/blob/main/Farkle.py){:target="_blank"}
 
 	
 The artifact that was chosen for this enhancement is a game called Farkle that was originally written for the IT-312 course that was taken in 2017.  Through this enhancement, the program will be translated from the current C++ version to a new Python version of the game. The original program includes a couple user-defined classes called Player and Gameplay as well as a struct datatype called Dice and some of the standard C++ libraries.  Within the Player class, there are attributes to hold the player’s name, score and whether they are the winning player along with the appropriate getter and setter functions.  The Gameplay class creates the struct for the dice, which holds attributes such as the value, number, scoring value and many Booleans such as whether the dice is a scoring dice or has been saved, matched or calculated.  This class also creates many methods for the functionality of the game which will be referenced throughout this page.  
