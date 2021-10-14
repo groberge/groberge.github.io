@@ -2,6 +2,6 @@
   Gameplay.cpp
   Player.cpp
   Roberge_Farkle.cpp
-D:\OneDrive\Documents\School\2021-08-Capstone\Roberge_Farkle_Milestone3\Roberge_Farkle\Roberge_Farkle.cpp(22,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\OneDrive\Documents\GitHub\Capstone\DS_Algorithm_Farkle\Roberge_Farkle\Roberge_Farkle.cpp(22,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
   Generating Code...
-  Roberge_Farkle.vcxproj -> D:\OneDrive\Documents\School\2021-08-Capstone\Roberge_Farkle_Milestone3\Debug\Roberge_Farkle.exe
+  Roberge_Farkle.vcxproj -> D:\OneDrive\Documents\GitHub\Capstone\DS_Algorithm_Farkle\Debug\Roberge_Farkle.exe
