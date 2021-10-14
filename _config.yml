@@ -1,18 +1,11 @@
 theme: jekyll-theme-hacker
 title: Greg Roberge's ePortfolio test
-url: /
-
-title: Code Review
-url:/CodeReview.html
-
-title: Software Design
-url:https://groberge.github.io/SoftwareDesign.html
 
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  Home: "index"
-  Code Review: "CodeReview"
-  Software Design: "SoftwareDesign"
-  Data Structures and Algorithms: "DataStructures"
-  Databases: "Databases"
+  Home: "https://groberge.github.io"
+  Code Review: "https://groberge.github.io/CodeReview.html"
+  Software Design: "https://groberge.github.io/SoftwareDesign.html"
+  Data Structures and Algorithms: "https://groberge.github.io/DataStructures.html"
+  Databases: "https://groberge.github.io/Databases.html"
