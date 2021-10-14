@@ -1,9 +1,3 @@
-
-[Code Review](https://groberge.github.io/CodeReview.html){:target="_blank"}
-[Software Design](https://groberge.github.io/SoftwareDesign.html){:target="_blank"}
-[Data Structures and Algorithms](https://groberge.github.io/DataStructures.html){:target="_blank"}
-[Databases](https://groberge.github.io/Databases.html){:target="_blank"}
-
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/groberge/groberge.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
