@@ -1,0 +1,3 @@
+﻿  Roberge_Farkle.cpp
+D:\OneDrive\Documents\School\2021-08-Capstone\Updated_Roberge_Farkle_Milestone4\Roberge_Farkle\Roberge_Farkle.cpp(33,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Roberge_Farkle.vcxproj -> D:\OneDrive\Documents\School\2021-08-Capstone\Updated_Roberge_Farkle_Milestone4\Debug\Roberge_Farkle.exe

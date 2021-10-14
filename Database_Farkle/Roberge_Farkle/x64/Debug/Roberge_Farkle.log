@@ -1,0 +1,12 @@
+﻿  stdafx.cpp
+  Gameplay.cpp
+D:\OneDrive\Documents\School\2021-08-Capstone\New_Roberge_Farkle_Milestone4\Roberge_Farkle\Gameplay.cpp(392,17): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+D:\OneDrive\Documents\School\2021-08-Capstone\New_Roberge_Farkle_Milestone4\Roberge_Farkle\Gameplay.cpp(428,36): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Player.cpp
+  Roberge_Farkle.cpp
+D:\OneDrive\Documents\School\2021-08-Capstone\New_Roberge_Farkle_Milestone4\Roberge_Farkle\Roberge_Farkle.cpp(39,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating Code...
+Roberge_Farkle.obj : error LNK2019: unresolved external symbol sqlite3_close referenced in function main
+Roberge_Farkle.obj : error LNK2019: unresolved external symbol sqlite3_open referenced in function main
+Roberge_Farkle.obj : error LNK2019: unresolved external symbol sqlite3_errmsg referenced in function main
+D:\OneDrive\Documents\School\2021-08-Capstone\New_Roberge_Farkle_Milestone4\x64\Debug\Roberge_Farkle.exe : fatal error LNK1120: 3 unresolved externals
