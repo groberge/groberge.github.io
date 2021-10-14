@@ -2,7 +2,7 @@ theme: jekyll-theme-hacker
 title: Greg Roberge's ePortfolio
 
 title: Code Review
-url: "CodeReview.html"
+url: "https://groberge.github.io/CodeReview.html"
 
 title: Software Design and Engineering
 url: "SoftwareDesign.html"
