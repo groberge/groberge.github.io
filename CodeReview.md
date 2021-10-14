@@ -9,4 +9,4 @@ I will then go through the enhancements that will be completed throughout this C
 - Data Structures and Algorithms
 - Database enhancement
 
-[Code Review Video](https://youtu.be/se1f-pKcK7Y)
+[Code Review Video](https://youtu.be/se1f-pKcK7Y){:target="_blank"}

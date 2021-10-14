@@ -6,7 +6,7 @@
 
 **Enhanced artifact**
 
-
+[Updated C++ Farkle](https://github.com/groberge/groberge.github.io/tree/main/DS_Algorithm_Farkle)
 
 The artifact that was chosen for this enhancement is a game called Farkle that was written in C++ for the IT-312 course taken in 2017.  Through this enhancement, the efficiency and functionality of the program will be improved by using different data structures and algorithms, the security will be improved by verifying inputs and limiting the scope of variables and multiple bugs will be resolved.  The original program includes user-defined classes called Player and Gameplay as well as a struct datatype called Dice, along with some standard C++ libraries.  Within the Player class, there are attributes to hold the player’s name, score and whether they are the winning player along with the appropriate getter and setter functions.  The Gameplay class creates the struct for the dice, which holds attributes such as the value, number, scoring value and many Booleans such as whether the dice is a scoring dice or has been saved, matched or calculated.  This class also creates many methods for the functionality of the game.
 
