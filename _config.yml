@@ -1,14 +1,4 @@
 theme: jekyll-theme-hacker
 title: Greg Roberge's ePortfolio
 description: SNHU BS in Computer Science Capstone Project
-
-
-# --- List of links in the navigation bar --- #
-
-navbar-links:
-  Home: "https://groberge.github.io"
-  Code Review: "https://groberge.github.io/CodeReview.html"
-  Software Design: "https://groberge.github.io/SoftwareDesign.html"
-  Data Structures and Algorithms: "https://groberge.github.io/DataStructures.html"
-  Databases: "https://groberge.github.io/Databases.html"
-# --- List of links in the navigation bar --- #
+baseurl: /groberge.github.io
