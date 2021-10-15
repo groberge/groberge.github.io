@@ -1,37 +1,5 @@
-## Welcome to GitHub Pages
+## Welcome to Greg Roberge's ePortfolio
 
-You can use the [editor on GitHub](https://github.com/groberge/groberge.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+This final project for the BS in Computer Science degree program is an ePortfolio which holds a collection of artifacts that are used to show a student’s abilities in the field of software development.  It allows the student to use one or multiple programs that were written for an earlier class or an approved open-source project and enhance it in various ways to meet certain criteria.  Covered in this project are the process of code review along with enhancements in the categories of Software Design and Engineering, Algorithms and Data Structures, and Databases. Additionally, a professional self-assessment is available that discusses the overall coursework of the Computer Science degree program and how it has prepared me for a career in software development.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/groberge/groberge.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+The program that is being used for the original program in this project is a game called Farkle which was written for a C++ course in 2017.   The Code Review page of this ePortfolio includes a short description along with a link to the video in which this program is reviewed.  Each of the enhancement categories are covered on a different page and include a description of the base program for the category, justification for why it was included in the project and the changes that were made along with details on the process of improving the program.  Also included are links to the original and the updated artifact for review.  The enhancements that have been submitted include a translation of the program from C++ to Python for the Software Design and Engineering category and improvements in efficiency, memory usage and security using C++ for the Algorithms and Data Structures category.  For the Databases category, the updated program from the Algorithms and Data Structures category was used as the original and an SQLite database was added to track high scores, wins and losses.
