@@ -90,8 +90,6 @@ void HighScore::addPlayer(const string& playername)
 */
 void HighScore::updateStats(const string& field, int value, string name)
 {
-	// Using prepare_v2 and bind to create the sql statement using variants
-
 	sqlite3_stmt* res;
 	char* sql = NULL;
 
@@ -129,6 +127,8 @@ void HighScore::updateStats(const string& field, int value, string name)
 		sql = "UPDATE Players SET losses = ? WHERE name = ?";
 		break;
 	}
+
+	// Using prepare_v2 and bind to create the sql statement using variants
 
 	// Compile the sql statement
 	rc = sqlite3_prepare_v2(db, sql, -1, &res, 0);
