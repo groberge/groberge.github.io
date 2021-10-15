@@ -1,4 +1,4 @@
-## Data Structures and Algorithms
+## Algorithms and Data Structures
 
 **Original artifact**
 
