@@ -9,9 +9,9 @@
 [Updated C++ Farkle](https://github.com/groberge/groberge.github.io/tree/main/DS_Algorithm_Farkle){:target="_blank"}
 
 **Contents**
-[Description](#Description)
-[Changes](#Changes)
-[Objectives](#Objectives)
+[Description](#Description) |
+[Changes](#Changes) |
+[Objectives](#Objectives) | 
 [Reflection](#Reflection)
 
 ### Description
