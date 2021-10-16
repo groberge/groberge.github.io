@@ -1,3 +1,4 @@
+## Introduction
 
 This final project for the BS in Computer Science degree program is an ePortfolio which holds a collection of artifacts that are used to show a student’s abilities in the field of software development.  It allows the student to use one or multiple programs that were written for an earlier class or an approved open-source project and enhance it in various ways to meet certain criteria.  Covered in this project are the process of code review along with enhancements in the categories of Software Design and Engineering, Algorithms and Data Structures, and Databases. Additionally, a professional self-assessment is available that discusses the overall coursework of the Computer Science degree program and how it has prepared me for a career in software development.
 
