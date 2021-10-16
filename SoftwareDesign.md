@@ -8,7 +8,14 @@
 
 [Farkle in Python](https://github.com/groberge/groberge.github.io/blob/main/Farkle.py){:target="_blank"}
 
-	
+**Contents**
+[Description](#description) |
+[Changes](#changes) |
+[Objectives](#objectives) | 
+[Reflection](#reflection) |
+[Resources](#resources)
+
+### Description	
 The artifact that was chosen for this enhancement is a game called Farkle that was originally written for the IT-312 course that was taken in 2017.  Through this enhancement, the program will be translated from the current C++ version to a new Python version of the game. The original program includes a couple user-defined classes called Player and Gameplay as well as a struct datatype called Dice and some of the standard C++ libraries.  Within the Player class, there are attributes to hold the player’s name, score and whether they are the winning player along with the appropriate getter and setter functions.  The Gameplay class creates the struct for the dice, which holds attributes such as the value, number, scoring value and many Booleans such as whether the dice is a scoring dice or has been saved, matched or calculated.  This class also creates many methods for the functionality of the game which will be referenced throughout this page.  
   
 The main application instantiates the Gameplay class, an alias called PlayerVector representing a vector of the players and initializes the combination of the srand and time functions to ensure random values are achieved during the rolling of the dice.  It then displays the rules using a function from the Gameplay class that displays a file to the screen and runs another Gameplay function called numberPlayers which prompts the user for the number of players who will be playing.  
@@ -17,10 +24,13 @@ After requesting each player’s name from the users and adding it to the vector
 
 At the end of each turn, a function is used to check if the current player’s score is over 10,000 and if so, the bit is set to mark them as the winning player.  Once this occurs, the game loops through the other players and allows them to take a final turn until this player is reached again.  At this point, the player with the highest score is calculated using the calculateWinner function and the winner is congratulated.
 
+### Changes
 This program was chosen because it allows the opportunity to take a fully functioning program that was written in one language and transfer it into another.  There were parts of the artifact that used C++ objects that don’t exist in Python such as some data structures (structs) and case statements.  This presented a good opportunity to do some research to find suitable replacements for these objects and be able to use them in the new version of the program.  By importing Counter from the collections module, the time and complexity of the threeOfAKind() function will be improved from the original C++ version and that functionality has been included in the scoring() function in Python.  Additionally, the dataclass data structure has been used for the players rather than a class.  This data structure creates many of the dunder methods automatically, helping to limit manual creation of these functions (Python Software Foundation, n.d.).
 
+### Objectives
 These improvements along with the complete transfer of the program from C++ to Python helped to showcase my skills in using well-founded and innovative techniques, skill, and tools to implement solutions that deliver value and accomplish goals.  They also helped display skills in evaluating computing solutions to solve a given problem using algorithmic principles while managing the trade-offs involved in the choices.  Throughout the process, GitHub was used to track the versions of this project at [Farkle](https://github.com/groberge/Farkle){:target="_blank"} which would allow collaborative development when opened to other programmers.  With these skills, the course objectives that were planned to meet with this milestone have been met.
-  
+
+### Reflection
 The process of transferring this program into another language was an interesting project.  Not only does a developer sometimes have to find different ways in each language to result in the same outcome, but they also need to compare the different options within the same language to find the best and most efficient choice.  It was also found that different languages include modules or libraries to perform functions that may need to be written out in another language, such as the most_common method that was used from the collections module in Python.  There weren’t any similar options in C++ that would perform the same function, and this was a huge help when writing this program.  The only challenges that were faced dealt with learning the modules that hadn’t previously been used, but the documentation and online examples were very helpful in allowing the new functionality to be learned.
 
 
