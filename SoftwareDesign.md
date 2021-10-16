@@ -34,7 +34,7 @@ These improvements along with the complete transfer of the program from C++ to P
 The process of transferring this program into another language was an interesting project.  Not only does a developer sometimes have to find different ways in each language to result in the same outcome, but they also need to compare the different options within the same language to find the best and most efficient choice.  It was also found that different languages include modules or libraries to perform functions that may need to be written out in another language, such as the most_common method that was used from the collections module in Python.  There weren’t any similar options in C++ that would perform the same function, and this was a huge help when writing this program.  The only challenges that were faced dealt with learning the modules that hadn’t previously been used, but the documentation and online examples were very helpful in allowing the new functionality to be learned.
 
 
-**Resources**
+### Resources
 
 Python Software Foundation. (n.d.). _dataclasses - Data Classes - Python 3.9.7 documentation._ Python. &nbsp;&nbsp;&nbsp;&nbsp;https://docs.python.org/3/library/dataclasses.html
  
