@@ -8,6 +8,14 @@
 
 [Updated C++ Farkle](https://github.com/groberge/groberge.github.io/tree/main/DS_Algorithm_Farkle){:target="_blank"}
 
+**Contents**
+[Description](#Description)
+[Changes](#Changes)
+[Objectives](#Objectives)
+[Reflection](#Reflection)
+
+### Description
+
 The artifact that was chosen for this enhancement is a game called Farkle that was written in C++ for the IT-312 course taken in 2017.  Through this enhancement, the efficiency and functionality of the program will be improved by using different data structures and algorithms, the security will be improved by verifying inputs and limiting the scope of variables and multiple bugs will be resolved.  The original program includes user-defined classes called Player and Gameplay as well as a struct datatype called Dice, along with some standard C++ libraries.  Within the Player class, there are attributes to hold the player’s name, score and whether they are the winning player along with the appropriate getter and setter functions.  The Gameplay class creates the struct for the dice, which holds attributes such as the value, number, scoring value and many Booleans such as whether the dice is a scoring dice or has been saved, matched or calculated.  This class also creates many methods for the functionality of the game.
 
 The main application instantiates the Gameplay class, an alias called PlayerVector representing a vector of the players, and initializes the combination of the srand and time functions to ensure random values are achieved during the rolling of the dice.  It then displays the rules using a function from the Gameplay class that displays a file to the screen and runs another Gameplay function called numberPlayers which prompts the user for the number of players who will be playing.
@@ -16,9 +24,12 @@ After requesting each player’s name from the users and adding it to the vector
 
 At the end of each turn, a function is used to check if the current player’s score is over 10,000 and if so, the bit is set to mark them as the winning player.  Once this occurs, the game loops through the other players and allows them to take a final turn until this player is reached again.  At this point, the player with the highest score is calculated using the calculateWinner function and the winner is congratulated.
 
+### Changes
 This item was chosen because, although it is a fully functioning game that works well, there are many improvements that can be made to improve the quality, memory usage and efficiency of the game.  In the original version of the game, there were many steps and iterations that didn’t look to be very efficient.  Throughout this process, the largest improvement is in the takeTurn function which improved in speed and memory usage due to many modifications.  With these changes, most of the attributes for the dice are no longer necessary and integers are now used rather than creating a struct for each die.  This helped to increase the efficiency of diceRoll by over 300% from approximately 6.3 microseconds per roll to 1.8 microseconds per roll as tested by the chrono library.  A map from the standard template library is now being used with the count function to hold the value and count of the dice during the scoring process which helps to quickly find the dice that are present as well as the count of each value in each roll and removed the need to iterate through all of them to find a triplet or any other scoring dice.  A pair class is then used to return the score for a given roll and the number of dice left to roll from the scoring function.  Improved user input validation, decreasing the scope and unnecessary initialization of many variables and the use of references to addresses rather than copies of the needed objects for many function parameters have also been added to this program.
 
+### Objectives
 Working on this enhancement helped showcase skills in designing and evaluating computing solutions to solve given problems and managing the trade-offs involved.  An existing program was able to be analyzed to find improvements that could be made to enhance the efficiency, memory usage and overall functionality of the program.  Well-founded and innovative techniques and tools were also used to implement a valuable computer solution and demonstrate a security mindset by validating user input and limiting the scope of variables to where they are required.  This activity helped to meet the course objectives that were planned to be met by taking an existing program and making changes in the data structures and algorithms to improve the efficiency, security and memory usage of the application.
 
+### Reflection
 The process of enhancing an existing program that was originally thought to be great at the time was a great opportunity to look outside what is already presented and find other options for performing the same function.  It assisted in being able to compare multiple alternatives and find what works best to meet the requirements.  This helped to prove that even though there may not be a library that does exactly what you’re looking for in a function, there are usually multiple options that can help a developer along the way.  The challenge that was faced besides learning how to use new objects such as the map and the pair was keeping track of what had already been improved and what still needed to be done since there was a large part of the program being improved.  Using software such as Jira to keep track of the larger project in smaller tasks would be handy for this process.
 
